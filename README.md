@@ -131,4 +131,22 @@ For any questions or support, please contact [your email].
 ## Next Steps
 
 ...
+## Steps Completed
+
+...
+
+11. **Add Raw CSV Files**
+   - Moved raw CSV files to the `data/raw` directory:
+     ```sh
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\contracting_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\funding_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\labor_standard_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\naics_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\product_srvc_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\vendor_table.csv" "D:\PROJECT\government-contracting-analysis\data\raw\"
+     ```
+
+## Next Steps
+
+...
 
