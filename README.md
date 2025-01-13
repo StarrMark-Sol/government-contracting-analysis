@@ -80,3 +80,22 @@ government-contracting-analysis/ ├── data/ │ ├── raw/ # Raw data f
 ## Contact
 For any questions or support, please contact [your email].
 
+## Steps Completed
+
+...
+
+8. **Add Cleaned Data Files**
+   - Moved cleaned data files to the `data/cleaned` directory:
+     ```sh
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\vendor_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\product_srvc_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\naics_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\labor_standard_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\funding_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\contracting_table_clean.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\contract_table.csv" "D:\PROJECT\government-contracting-analysis\data\cleaned\"
+     ```
+
+## Next Steps
+
+...
