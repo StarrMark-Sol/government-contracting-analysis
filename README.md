@@ -116,4 +116,19 @@ For any questions or support, please contact [your email].
 ## Next Steps
 
 ...
+## Steps Completed
+
+...
+
+10. **Add SQL Scripts for Creating Schema and Importing Data**
+   - Moved SQL scripts to the `scripts/sql` directory:
+     ```sh
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\data_import_contracting.sql" "D:\PROJECT\government-contracting-analysis\scripts\sql\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\update_column_data.sql" "D:\PROJECT\government-contracting-analysis\scripts\sql\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\validate_import.sql" "D:\PROJECT\government-contracting-analysis\scripts\sql\"
+     ```
+
+## Next Steps
+
+...
 
