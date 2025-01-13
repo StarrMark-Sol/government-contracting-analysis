@@ -99,3 +99,21 @@ For any questions or support, please contact [your email].
 ## Next Steps
 
 ...
+
+## Steps Completed
+
+...
+
+9. **Add Python Scripts for Data Cleaning**
+   - Moved Python scripts for data cleaning to the `scripts/data_cleaning` directory:
+     ```sh
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\clean_contracting.py" "D:\PROJECT\government-contracting-analysis\scripts\data_cleaning\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\create_table.py" "D:\PROJECT\government-contracting-analysis\scripts\data_cleaning\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\clean_labor.py" "D:\PROJECT\government-contracting-analysis\scripts\data_cleaning\"
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\import.py" "D:\PROJECT\government-contracting-analysis\scripts\data_cleaning\"
+     ```
+
+## Next Steps
+
+...
+
