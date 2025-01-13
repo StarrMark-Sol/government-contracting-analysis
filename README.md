@@ -150,3 +150,16 @@ For any questions or support, please contact [your email].
 
 ...
 
+## Steps Completed
+
+...
+
+12. **Add Mermaid Diagrams**
+   - Moved Mermaid diagrams to the `docs/schema_diagram` directory:
+     ```sh
+     move "H:\DATA SCIENCE\DataProj\SMS-Data-Projects\pgADMIN\schema_diagram.md" "D:\PROJECT\government-contracting-analysis\docs\schema_diagram\"
+     ```
+
+## Next Steps
+
+...
