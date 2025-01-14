@@ -11,8 +11,51 @@ The goal of this project is to analyze government contracting data to identify o
 - Azure DevOps
 - sam.gov
 
-## Project Structure
-government-contracting-analysis/ ├── data/ │ ├── raw/ # Raw data files downloaded from Sam.gov│ ├── cleaned/ # Cleaned data files ├── scripts/ │ ├── data_cleaning/ # Python scripts for data cleaning │ ├── sql/ # SQL scripts for creating schema and importing data ├── docs/ │ ├── schema_diagram/ # Mermaid diagrams and documentation ├── .gitignore # Git ignore file ├── README.md# Main README file
+## Project Structures
+government-contracting-analysis/
+├── data/
+│   ├── raw/                    # Raw data files downloaded from Sam.gov
+│   │   ├── funding_table.csv
+│   │   ├── vendor_table.csv
+│   │   ├── contracting_table.csv
+│   │   ├── naics_table.csv
+│   │   ├── product_srvc_table.csv
+│   │   └── labor_standard_table.csv
+│   ├── cleaned/                 # Cleaned data files
+│   │   ├── funding_table_clean.csv
+│   │   ├── vendor_table_clean.csv
+│   │   ├── contracting_table_clean.csv
+│   │   ├── naics_table_clean.csv
+│   │   ├── product_srvc_table_clean.csv
+│   │   └── labor_standard_table_clean.csv
+│
+├── scripts/
+│   ├── data_cleaning/           # Python scripts for data cleaning
+│   │   ├── clean_funding_table.py
+│   │   ├── clean_vendor_table.py
+│   │   ├── clean_contracting_table.py
+│   │   ├── clean_naics_table.py
+│   │   ├── clean_product_srvc_table.py
+│   │   └── clean_labor_standard_table.py
+│   ├── sql/                     # SQL scripts for creating schema and importing data
+│   │   ├── create_schema.sql
+│   │   ├── import_funding_table.sql
+│   │   ├── import_vendor_table.sql
+│   │   ├── import_contracting_table.sql
+│   │   ├── import_naics_table.sql
+│   │   ├── import_product_srvc_table.sql
+│   │   └── import_labor_standard_table.sql
+│
+├── docs/
+│   ├── schema_diagram/          # Mermaid diagrams and documentation
+│   │   ├── schema_diagram.mmd
+│   │   └── schema_diagram.png
+│
+├── .gitignore                   # Git ignore file
+├── README.md                    # Main README file
+├── CONTRIBUTING.md              # Contributing guidelines
+└── LICENSE                      # License information
+
 
 
 ## Steps Completed
